@@ -12,6 +12,7 @@ import java.io.IOException;
 @Service
 public class FirebaseInitialize {
 
+    //ส่วนติดต่อ Firebase
     @PostConstruct
     public void initialize() throws IOException {
         try {
